@@ -1,10 +1,10 @@
 <?php
-
+// CREATED BY AKASH VISHWAKARMA
 // Set the API endpoint URL
 $api_url = 'https://api.nasa.gov/planetary/apod';
 
 // Set the API key
-$api_key = 'XeBRWZy0uXz8Jy2wm4RN1vewaadrgApt85xxiYXy';
+$api_key = 'YOUR_API_KEY';
 
 
 // Set the number of images to retrieve

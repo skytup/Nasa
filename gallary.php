@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- 	THIS PROJECT IS CREATED BY AKASH VISHWAKARMA -->
 	<title>NASA API Demo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -95,8 +96,9 @@
 
 <div class="gallery">
 
-    <?php
-    $api_key = "XeBRWZy0uXz8Jy2wm4RN1vewaadrgApt85xxiYXy";
+    <?PHP
+// GET AN API KEY FROM NASA OFFICIAL WEBSITE
+    $api_key = "YOUR_API_KEY";
     // Get the latest Mars Rover Photos
     $url = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/latest_photos?api_key=$api_key";
     $data = json_decode(file_get_contents($url));

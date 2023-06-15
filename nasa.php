@@ -1,6 +1,6 @@
 <?php
 	// Define API key for NASA's API
-	$api_key = "XeBRWZy0uXz8Jy2wm4RN1vewaadrgApt85xxiYXy";
+	$api_key = "YOUR_API_KEY";
 
 	// Get data from NASA's API
 	$url = "https://api.nasa.gov/planetary/apod?api_key=$api_key&count=6";

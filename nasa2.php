@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NASA Space Images</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+<!-- CREATED BY AKASH VISHWAKARMA -->
 </head>
 
 <body>
@@ -17,7 +18,7 @@
                 <div class="card-body">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <?php
-                        $api_key = "XeBRWZy0uXz8Jy2wm4RN1vewaadrgApt85xxiYXy";
+                        $api_key = "YOUR_API_KEY";
                         // Get images of Galaxy
                         $url = "https://api.nasa.gov/planetary/apod?api_key=$api_key&count=9";
                         $images = json_decode(file_get_contents($url));
